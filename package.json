@@ -1,0 +1,11 @@
+{
+  "name": "landing-villas-san-pablo-v2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@vercel/functions": "3.7.6"
+  }
+}
