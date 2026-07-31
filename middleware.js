@@ -13,7 +13,7 @@ export default async function middleware(request) {
 
   if (authorized) return next();
 
-  return new Response("Sitio temporalmente protegido. Ingresa las credenciales autorizadas.", {
+  return new Response("Acceso privado.", {
     status: 401,
     headers: {
       "Cache-Control": "no-store",
