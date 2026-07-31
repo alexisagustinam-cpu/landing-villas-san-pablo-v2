@@ -1,5 +1,5 @@
 (() => {
-  const PASSWORD_HASH = "d456700c03b673f50f7e6f15e75c3a705f8333a1ad330618fc77fe0acfcbb307";
+  const PASSWORD_HASH = "a4bded7f702929c65a4aa95e24d790d91af9331a06655b609bacdceb4bbebdcb";
   const SESSION_KEY = "vsp-access-authorized";
 
   async function hash(value) {
