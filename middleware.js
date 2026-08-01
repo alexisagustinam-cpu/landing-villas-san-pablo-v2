@@ -2,7 +2,7 @@ import { next } from "@vercel/functions";
 import { isAuthorized } from "./auth-core.mjs";
 
 const USERNAME = "villas";
-const PASSWORD_HASH = "a4bded7f702929c65a4aa95e24d790d91af9331a06655b609bacdceb4bbebdcb";
+const PASSWORD_HASH = "fcccb441e5ee7e85f299907b7d32127a6585c9c6fc9d5896d519426ab65ad564";
 
 export default async function middleware(request) {
   const authorized = await isAuthorized(
